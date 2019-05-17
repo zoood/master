@@ -9,6 +9,9 @@ namespace MyDiaryOne.Models
 {
     public class User
     {
+        /// <summary>
+        /// ID
+        /// </summary>
         [DisplayName("Id")]
         public int Id { get; set; }
         [DisplayName("UserName"), Required]
